@@ -1,4 +1,4 @@
-header{
+header {
     padding:22px 0px 12px;
     color: black;
     float:left;
@@ -6,48 +6,48 @@ header{
     font-weight:normal;
     text-align: center;
 }
-.logo{
+.logo {
     float: left;
 }
-nav{
+nav {
     padding: 20px 12px 16px 12px;
 } 
-nav .about_me_nav{
+nav .about_me_nav {
     display: inline;
     color:green;
     text-align: center;
     font-size: 22px;
 }   
-a{
+a {
     text-decoration: none;
     color: grey;
     text-align: center;
     padding: 17px 50px 16px 50px;
 }
-a:hover{
+a:hover {
     color:rosybrown;
 }
-a:active{
+a:active{ 
     color: rgb(225, 126, 250);
 }
-body{
+body {
     background-color: rgb(243, 240, 234);
     font-family:'Times New Roman', Times, serif;
 }
-.bodycontent{
+.bodycontent {
     color: grey;
     text-align: justify;
     padding: 0px;
     clear: both;
     font-size:x-large;
 }
-.bodyimage{
+.bodyimage {
     float: right;
 }
-section{
+section {
     margin-top: 11em;
 }
-main{
+main {
     margin: auto 50px;
     padding: 20px;
 }
