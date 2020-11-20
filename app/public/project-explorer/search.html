@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        ul .nav{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+        }
+        li.nav{
+            display: inline;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>Project Explorer</h1>
+            <h2>One Stop Database for Final Year Projects</h2>
+        </header>
+        <nav>
+            <ul class="nav">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="search.html">Projects</a></li>
+                <li class="nav"><a href="login.html">Login</a></li>
+                <li class="nav"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h3>Search Project By</h3>
+                <form action="login.html">
+                    <label for="ptitle">Project Title: </label><br>
+                    <input type="text"> <br> <br>
+
+                    <label for="pabstract">Project Abstract: </label><br>
+                    <input type="text"><br> <br>
+
+                    <label for="author">Author: </label><br>
+                    <input type="text"><br> <br>
+
+                    <label for="tags">Tag(s): </label><br>
+                    <input type="text"><br> <br>
+                    
+                    <button type="button">Search</button>
+                </form>
+            </section>
+            <section>
+                <h3>Search Result</h3>
+                <h4>Project 4</h4>
+                <ul>
+                    <li>Name: Project 4</li>
+                    <li>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem iusto, ducimus adipisci rerum eos sed quidem provident, nulla distinctio aut magni, mollitia excepturi impedit est? Dolores ducimus deleniti aspernatur!</li>
+                    <li>Program: Computer Science</li>
+                    <li>Authors: Ade, Ade, Brian James</li>
+                    <li>Tags: #yaml, #ejs</li>
+                </ul>
+            </section>
+       </main> 
+    </body>
+</html>
